@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+#conteiner-bloco {
+    padding: 0px 30px;
+}
+
+.bloco {
+    background-color: #f4f3f3;
+    height: 170px;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    margin: 0px 0px 7px 0px;
+}
+
+.expecificando {
+    margin: 15px 0px 20px 0px;
+}
+
+.comprar {
+    background-color: #a8f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: hsl(257, 54%, 21%);
+    text-decoration: none;
+    font-weight: bold;
+}
