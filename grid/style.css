@@ -10,23 +10,16 @@ h1 {
 }
 
 #conteiner-bloco {
-    display: grid;
-    height: 900px;
-    grid-template-columns: 300px 300px;
-    gap: 30px;
-    padding: 0px 30px;
-    justify-content: end;
-    align-content: center;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+
+  gap: 20px;
 }
 
 .bloco {
-    display: grid;
-    background-color: #f4f3f3;
-    height: 200px;
-    width: 200px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #cccccc;
+   background-color: #e7e7e7;
+   padding: 20px;
+   border: 1px solid rgb(204, 204, 204);
 }
 
 h2 {
