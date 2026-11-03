@@ -3,78 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carros e Bicicletas</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        main {
-            margin: auto;
-            padding: 30px;
-
-        }
-
-        section {
-            width: 100%;
-            height: 150px;
-            margin: 10px;
-            padding: 20px;
-            background-color: #111;
-            border-radius: 5px;
-        }
-
-        h1 {
-            margin: 40px 0px 20px 0px;
-            text-align: center;
-        }
-
-        h2 {
-            color: white;
-        }
-
-        span {
-            color: #febe01;
-        }
-
-        p {
-            margin: 10px 0px 15px 0px;
-            color: #b2b2b2;
-        }
-
-        .butao {
-            height: 40px;
-            width: 130px;
-            background-color: #febe01;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #332200;
-        }
-    </style>
+    <title>Carros e bicicletas</title>
 </head>
+<style>
+    body{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        text-align: center;
+        color: black;
+    }
+
+    #container-compra{
+        max-width: 600px;
+        
+        margin: auto;
+    }
+
+    .filho-compra {
+        background-color: black;
+        margin-bottom: 20px;
+        padding: 30px;
+        border-radius: 5px;
+    }
+
+    h2{
+        color: white;
+        margin-top: 0pc;
+    }
+
+    p {
+        color: gray;
+    }
+
+    span {
+        color: rgb(230, 184, 0);
+    }
+
+    a {
+        display: inline-block;
+        color: rgb(104, 83, 0);
+        text-decoration: none;
+        background-color: rgb(230, 184, 0);
+        padding: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+</style>
 <body>
-    <main>
-        <h1>Carros e Bicicletas</h1>
-        <section>
+    <h1>Carros e Bicicletas</h1>
+    <div id="container-compra">
+        <div class="filho-compra">
             <h2>Carro: <span>R$ 1999</span></h2>
-            <p>Carro modelo <span>2045</span>, com <span>240km</span> rodados.</p>
-            <div class="butao"><a href="#">Comprar Carro</a></div>
-        </section>
-        <section>
+            <p>Carro modelo <span>2045</span>, com <span>200km</span> rodados.</p>
+            <a href="#">Comprar Carro</a>
+        </div>
+
+        <div class="filho-compra">
             <h2>Bicicleta: <span>R$ 199</span></h2>
-            <p>Bicicleta modelo <span>2050</span>, com <span>24km</span> rodados.</p>
-            <div class="butao"><a href="#">Comprar Carro</a></div>
-        </section>
-    </main>
+            <p>Carro modelo <span>2050</span>, com <span>20km</span> rodados.</p>
+            <a href="#">Comprar Bicicleta</a>
+        </div>
+    </div>
 </body>
 </html>
