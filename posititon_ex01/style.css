@@ -1,0 +1,77 @@
+/* configurações gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e7e7;
+}
+
+/* Menu */
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+#container-menu {
+    text-align: center;
+}
+
+.menu {
+    background-color: #f7f7f7;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+/* conteudo principal */
+
+#container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 700px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f7f7f7;
+}
+
+/* Bloco 1 */
+
+#filho-grid-1 {
+    padding: 30px;
+    padding-top: 70px;
+    text-align: end;
+}
+
+#filho-grid-1 > h2 {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+#filho-grid-1 > a {
+    display: inline-block;
+    background-color: #ee2211;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Bloco 2 */
+
+#filho-grid-img {
+    background-color: #747474;
+}
+
+/* Bloco 3 */
